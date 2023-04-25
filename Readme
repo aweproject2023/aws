@@ -1,6 +1,15 @@
 Amazon Storage Volume Type:
 - General Purpose SSD (GP2)
 - 16GB size
+
+aws ec2 modify-volume --volume-type gp2 --size 16 --volume-id vol-078eca3ca35bff14c 
+
+aws ec2 describe-volumes-modifications --volume-id vol-078eca3ca35bff14c
+
 https://aws.amazon.com/ebs/pricing/?nc1=h_ls
+
+Process:
+1) EC2
+2) cloudshell
 
 
